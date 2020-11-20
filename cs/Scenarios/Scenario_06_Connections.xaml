@@ -17,8 +17,8 @@
             </StackPanel>
             
             <uc:ScenarioSubHeaderIntro />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     So far you have passively observed advertisements transmitted by your HackMe device.
                     It was basically one way communication from Broadcaster to nearby Observers (your smartphone).
@@ -52,8 +52,8 @@
             </RichTextBlock>
             
             <uc:ScenarioSubHeaderTask />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Your HackMe device should be visible again as your computer hostname (scan again to find it).
                 Use the "Connect" button to initiate connection. The application will show the list of BLE "services" available on the device.

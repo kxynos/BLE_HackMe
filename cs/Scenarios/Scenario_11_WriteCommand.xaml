@@ -18,7 +18,7 @@
 
             <uc:ScenarioSubHeaderIntro />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     By completing previous task, you learned how to write a value to characteristic.
                 Now it is time to get familiar with two types of write:
@@ -39,7 +39,7 @@
             
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Within the light bulb service, find another characteristic responsible for Text To Speech functionality.
                     It transforms the received text into speech, and our HackMe light bulb talks it back to you (turn your speaker on to hear it).

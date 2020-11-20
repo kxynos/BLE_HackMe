@@ -18,8 +18,8 @@
             </StackPanel>
             
             <uc:ScenarioSubHeaderIntro />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Typical communication with BLE device consists of a series of writes / reads / notifications.
                 In order to trigger specific functionality, it may be necessary to send multiple writes in sequence, 
@@ -29,7 +29,7 @@
 
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     You already know how to turn the light bulb on and off.
                     Your current task is to blink it twice per second for at least a few seconds.

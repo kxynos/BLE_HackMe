@@ -8,7 +8,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    
 
     <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="12,10,12,12" >
         <StackPanel>
@@ -17,8 +17,8 @@
                 <FontIcon x:Name="Solved" Style="{StaticResource ScenarioCompletedIconStyle}" Glyph="&#xE930;" />
             </StackPanel>
             <uc:ScenarioSubHeaderIntro />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     You are undoubtely familiar with Bluetooth, and most likely use it every day - for example in wireless mouse, headset or car audio. 
                 Despite sharing common name, Bluetooth Low Energy is however a different technology.
@@ -39,7 +39,7 @@
 
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     If everything went correctly, the HackMe application should now be broadcasting BLE packets. Let's see if it works! 
                 Probably the easiest way is to use your smartphone, and there are several free applications to do the job. 

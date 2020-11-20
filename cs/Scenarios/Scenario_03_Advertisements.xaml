@@ -17,8 +17,8 @@
             </StackPanel>
             
             <uc:ScenarioSubHeaderIntro />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Bluetooth Low Energy devices broadcast small packets called "advertisements". 
                 These packets are by design public (with a small exception of very uncommon "targeted advertisements"), and available for any receiver within Bluetooth range.
@@ -43,8 +43,8 @@
             </RichTextBlock>
             
             <uc:ScenarioSubHeaderTask />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     In previous task you have identified your HackMe device, and noticed its name.
                 Now tap on device name (not yet "CONNECT" button, we will get to it later), 

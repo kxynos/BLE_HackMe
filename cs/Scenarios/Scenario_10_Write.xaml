@@ -18,7 +18,7 @@
 
             <uc:ScenarioSubHeaderIntro />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     So far you have learned how to receive data from device by reading and subcribing to characteristic value.
                 Characteristics may also have a "write" property, which allows for submitting a value to device.
@@ -27,7 +27,7 @@
             
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     
                 Using your new skills in regards to services, characteristics and descriptors, 

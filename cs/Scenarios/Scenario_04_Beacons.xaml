@@ -17,8 +17,8 @@
             </StackPanel>
 
             <uc:ScenarioSubHeaderIntro />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                    BLE advertisements are often used to broadcast some unique device identifiers, 
                     which can be used for example to identify specific device or pinpoint very precise indoor location of the receiving smartphone.
@@ -41,8 +41,8 @@
             </RichTextBlock>
             
             <uc:ScenarioSubHeaderTask />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Your HackMe device advertisement has just changed. 
                     It does not broadcast its name any more (nRF Connect shows N/A), has different flags (no "CONNECT" button), 

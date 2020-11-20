@@ -19,7 +19,7 @@
             
             <uc:ScenarioSubHeaderIntro />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     A typical BLE device comes with an associated mobile application to control its behaviour.
                 The data exchanged with device (sent from the phone via writes and received back via reads/notifications), 
@@ -50,7 +50,7 @@
             
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     The light bulb has yet another characteristic, which allows to change its color and brightness level.
                 You will surely find it in the light bulb service. The valid data format to send via write is however unknown.

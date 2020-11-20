@@ -11,7 +11,7 @@
     <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="12,10,12,12">
         <StackPanel>
             <TextBlock Text="Hello!" Style="{StaticResource SampleHeaderTextStyle}"/>
-            <RichTextBlock TextWrapping="Wrap" Margin="0,10,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,10,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Hello and welcome to Bluetooth Low Energy hardware-less hackme!
                </Paragraph>
@@ -41,7 +41,7 @@
 
                     <FontIcon Grid.Column="0" Foreground="LightGray" FontFamily="Segoe MDL2 Assets" FontSize="60" Glyph="&#xE9F5;" Margin="10,0,10,0"/>
 
-                <RichTextBlock Grid.Column="1" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalTextAlignment="Left" Margin="10,0,10,0">
+                <RichTextBlock Grid.Column="1" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalTextAlignment="Left" Margin="10,0,10,0" Style="{StaticResource rtbFontStyle}">
                     <Paragraph>
                         Checking your system compatibility and starting BLE services...
                     </Paragraph>

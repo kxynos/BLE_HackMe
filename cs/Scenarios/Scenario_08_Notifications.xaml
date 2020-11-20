@@ -19,7 +19,7 @@
 
             <uc:ScenarioSubHeaderIntro />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Besides reading characteristic value, it is also possible to subscribe to it.
                 The device will automatically send a notification whenever the value update is available, eliminating the need for manual read.
@@ -39,7 +39,7 @@
             
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     
                 Connect to your device, find Heart Rate service and its characteristic.

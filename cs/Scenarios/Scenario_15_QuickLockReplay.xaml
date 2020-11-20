@@ -19,7 +19,7 @@
 
             <uc:ScenarioSubHeaderIntro />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Majority of BLE devices do not require Bluetooth pairing (bonding), 
                 and as a result the communication is not encrypted on Bluetooth link layer.
@@ -73,7 +73,7 @@
 
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Your task is to replay communication of 
                     <Hyperlink NavigateUri="https://www.thequicklock.com/product-padlock.php">Quicklock Bluetooth Smart padlock</Hyperlink>
@@ -153,7 +153,7 @@
             <uc:ScenarioSubHeaderHints />
 
             <StackPanel Orientation="Vertical" x:Name="Hint1" Visibility="Collapsed" Margin="0,5,0,5">
-                <RichTextBlock TextWrapping="Wrap">
+                <RichTextBlock TextWrapping="Wrap" >
                     <Paragraph>
                         After applying "btatt" filter and new "Value" column, you should see the communication between mobile application and the lock:
                     </Paragraph>

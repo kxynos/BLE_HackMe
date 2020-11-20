@@ -18,7 +18,7 @@
             
             <uc:ScenarioSubHeaderIntro />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     
                 Each Characteristic has a <Bold>Value</Bold>, which can be read or written to, depending on associated permissions - <Bold>Properties</Bold>.
@@ -34,8 +34,8 @@
             </RichTextBlock>
             
             <uc:ScenarioSubHeaderTask />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                 The nRF Connect application shows properties (permissions) as text value, 
                 and additionallly icons for available actions:

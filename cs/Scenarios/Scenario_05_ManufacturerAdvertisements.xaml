@@ -17,8 +17,8 @@
             </StackPanel>
             
             <uc:ScenarioSubHeaderIntro />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     In the previous task you learned how Manufacturer Specific (0xFF) field can be used to broadcast iBeacon.
                 It can however transmit any other data - vendors use it for example to identify device type and model, check current status, broadcast temporary id, sensor indication, or just some text.
@@ -27,7 +27,7 @@
 
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     The HackMe should now broadcast other Manufacturer Specific data in place of the iBeacon. 
                     Find out the packet raw payload, and decode its value (skipping Company ID bytes) from ascii hex string into human readable text.

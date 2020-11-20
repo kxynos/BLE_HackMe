@@ -19,7 +19,7 @@
 
             <uc:ScenarioSubHeaderIntro />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Even having some services secured, BLE devices often come with additional, unsecured functionality - available without prior authentication.
                 For example, many wearables allow for unauthorized read of firmware revision and serial number - what may help with tracking specific users.
@@ -30,7 +30,7 @@
 
             <uc:ScenarioSubHeaderTask />
 
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     The same
                     <Hyperlink NavigateUri="https://www.thequicklock.com/product-padlock.php">Quicklock Bluetooth Smart padlock</Hyperlink>

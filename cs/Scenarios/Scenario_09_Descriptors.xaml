@@ -18,8 +18,8 @@
             </StackPanel>
 
             <uc:ScenarioSubHeaderIntro />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Characteristic can have optional <Bold>Descriptor</Bold> associated. Most commonly used descriptors:
                 </Paragraph>
@@ -37,8 +37,8 @@
             </RichTextBlock>
 
             <uc:ScenarioSubHeaderTask />
-            
-            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0">
+
+            <RichTextBlock TextWrapping="Wrap" Margin="0,0,0,0" Style="{StaticResource rtbFontStyle}">
                 <Paragraph>
                     Check descriptors associated with Heart Rate Measurement characteristic. 
                 Note how Client Characteristic Configuration (0x2902) value changes after signing up to/signing off from notifications. 
