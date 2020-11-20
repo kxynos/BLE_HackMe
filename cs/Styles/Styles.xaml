@@ -100,6 +100,10 @@
         <Setter Property="Margin" Value="0,0,0,12"/>
     </Style>
 
+    <Style x:Key="rtbFontStyle" TargetType="RichTextBlock">
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
     <Style x:Key="TagLineTextStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}">
     </Style>
 
